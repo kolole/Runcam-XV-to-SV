@@ -1,5 +1,7 @@
 # Runcam-XV-to-SV
 
+[screenshot](https://raw.githubusercontent.com/kolole/Runcam-XV-to-SV/main/scaling_derperview.png)
+
 How to use:
 
 Make XVtoSV.sh executable
