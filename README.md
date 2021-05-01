@@ -19,3 +19,7 @@ Dependencies:
 FFMPEG
 
 Derperview (https://github.com/banelle/derperview)
+
+Optional dependency:
+
+FFPMEG-bar (https://github.com/sidneys/ffmpeg-progressbar-cli) - See the script to enable or disable this

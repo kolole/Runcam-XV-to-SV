@@ -40,6 +40,7 @@ for filename in ${args};do
   filename_43=$filename"_43_.MP4"
 
   #convert the original video to 4:3
+  #NOTE: If you don't use ffmpeg-bar (a fork of ffmpeg that simply adds a nice progress bar), comment it out and comment in the first option instead
   #ffmpeg -i $filename -vf scale=$width_new:$height -hide_banner -loglevel warning -threads 0 -vcodec libx264 -b:v $bitrate_video -b:a $bitrate_audio $filename_43 
   ffmpeg-bar -i $filename -vf scale=$width_new:$height -threads 0 -vcodec libx264 -b:v $bitrate_video -b:a $bitrate_audio $filename_43 
 
