@@ -16,4 +16,4 @@ Dependencies:
 
 FFMPEG
 
-Derperview
+Derperview (https://github.com/banelle/derperview)
